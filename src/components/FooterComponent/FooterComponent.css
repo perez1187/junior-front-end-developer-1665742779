@@ -1,0 +1,179 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 820px;
+
+    position: absolute;
+    left: 2.22%;
+    right: 2.22%;
+    top: 97.78%;
+    bottom: 0.89%;
+}
+
+.FooterComponentLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 203px;
+    height: 12px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.FooterTermsOfService{
+    width: 66px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+
+    color: #6B778C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+.FooterDot{
+    width: 4px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+  
+    color: #6B778C;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.FooterPrivacyPolicy {
+    width: 56px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+
+    color: #6B778C;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.FooterDot2{
+    width: 4px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+
+    color: #6B778C;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    }
+.FooterCopyright{
+    width: 41px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+
+    color: #6B778C;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.FooterComponentRight {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 210px;
+    height: 12px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.FooterNerdsFamilyVersion{
+    width: 94px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+   
+    color: #6B778C;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.FooterDot3 {
+    width: 4px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+
+    color: #6B778C;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.FooterLastUpdate {
+    width: 96px;
+    height: 12px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+ 
+    color: #6B778C;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
