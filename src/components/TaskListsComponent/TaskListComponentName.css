@@ -1,0 +1,71 @@
+.TaskListNameId1{
+    /* position: absolute;
+    left: 15.1%;
+    right: 51.15%;
+    top: 3.74%;
+    bottom: 93.49%; */
+    width: 200px;
+    height: 20px;
+    top: 27px;
+    left: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+}    
+
+.TaskListNameId2{
+    /* position: absolute;
+    left: 15.1%;
+    right: 51.15%;
+    top: 3.74%;
+    bottom: 93.49%; */
+    width: 200px;
+    height: 20px;
+    top: 27px;
+    left: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+} 
+
+.TaskListNameId3{
+    /* position: absolute;
+    left: 15.1%;
+    right: 51.15%;
+    top: 3.74%;
+    bottom: 93.49%; */
+    width: 200px;
+    height: 20px;
+    top: 27px;
+    left: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    /* Colors/Black Headline */
+
+    color: #AEB5C1;
+} 

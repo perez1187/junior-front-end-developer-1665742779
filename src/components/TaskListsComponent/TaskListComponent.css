@@ -14,3 +14,145 @@
     width: 320px;
     height: 784px;
 }
+
+.TaskListHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* padding: 16px 24px; */
+    padding-left: 16px;
+    gap: 143px;
+
+    width: 320px;
+    height: 65px;
+
+    /* Colors/White Background */
+
+    background: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.TaskListHeaderHeader{
+    /* Header */
+
+
+    width: 85px;
+    height: 19px;
+
+    top: 23px;
+    left: 24px;
+
+    /* Button */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19px;
+    /* identical to box height, or 158% */
+
+    text-transform: uppercase;
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.TaskListSeparator{
+    /* Separator */
+
+
+    width: 320px;
+    height: 1px;
+
+    /* Colors/Grey Background */
+
+    background: #F4F5F7;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+.TaskListContent{
+    /* Content */
+
+
+    width: 320px;
+    height: 718px;
+
+    /* padding: 16px 24px; */
+    padding-left: 16px;
+    padding-top: 24px;
+
+    /* Colors/White Background */
+
+    background: #FFFFFF;
+    /* Window Shadow */
+
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 12px 12px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+.TaskListName{
+    /* position: absolute;
+    left: 15.1%;
+    right: 51.15%;
+    top: 3.74%;
+    bottom: 93.49%; */
+    width: 200px;
+    height: 20px;
+    top: 27px;
+    left: 48px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+}    
+
+.TaskListIcon {
+    width: 16px;
+    height: 18px;
+    top: 28px;
+    left: 24px;
+    margin: 5px;
+}
+
+.TaskTest{
+    display: flex;
+    align-items: center;
+}
