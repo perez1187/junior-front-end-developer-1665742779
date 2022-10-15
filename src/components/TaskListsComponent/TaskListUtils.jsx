@@ -43,7 +43,7 @@ export function RenderingTaskObjects(){
         (element) => {
             return (
                 <div className='TaskTest' key={element.id}>
-                    <img src={findIcon(element.status)} alt={findAlt(element.statusIcon)} className="TaskListIcon"></img>
+                    <img src={findIcon(element.status)} alt={findAlt(element.status)} className="TaskListIcon"></img>
                     <p className={findTaskStyles(element.status)}>{element.title}</p>            
                 </div>
             )
