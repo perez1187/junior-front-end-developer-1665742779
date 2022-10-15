@@ -24,28 +24,33 @@ export const icons = [
 export const userTasks = [
     {
         "id":1,
-        "statusIcon":1,
-        "text": "Application Setup",
+        "status":1,
+        "title": "Application Setup",
+        "businessContext": [],
     },
     {
         "id":2,
-        "statusIcon":1,
-        "text": "Static Books List",
+        "status":1,
+        "title": "Static Books List",
+        "businessContext": [],
     },
     {
         "id":3,
-        "statusIcon":1,
-        "text": "Administration Panel",
+        "status":1,
+        "title": "Administration Panel",
+        "businessContext": [],
     },
     {
         "id":4,
-        "statusIcon":2,
-        "text": "Connect Admin with Frontend",
+        "status":2,
+        "title": "Connect Admin with Frontend",
+        "businessContext": [],
     },
     {
         "id":5,
-        "statusIcon":3,
-        "text": "Book Review Feature",
+        "status":3,
+        "title": "Book Review Feature",
+        "businessContext": [],
     },
 
 ]
