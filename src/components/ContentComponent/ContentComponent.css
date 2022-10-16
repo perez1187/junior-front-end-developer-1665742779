@@ -1,0 +1,72 @@
+.ContentComponent {
+    position: absolute;
+    left: 25.56%;
+    right: 2.22%;
+    top: 16.22%;
+    bottom: 4%;
+    padding: 24px 87px 0px 48px;
+
+    width: 1040px;
+    height: 718px;
+
+    /* Colors/White Background */
+
+    background: #FFFFFF;
+    /* Window Shadow */
+
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 12px 12px;
+}
+
+.ContentComponentInbox {
+    position: absolute;
+    width: 1010px;
+    height: 714px;
+    left: 4px;
+    top: 0px;
+
+}
+
+.ContentComponentRectangle {
+    /* position: absolute; */
+    width: 321px;
+    height: 718px;
+    left: 4px;
+    top: 714px;
+
+    /* Colors/Grey Background */
+
+    background: #F4F5F7;
+    border-radius: 10px 0px 0px 0px;
+    /* transform: rotate(-90deg); */
+}
+
+.ContentComponentGroup {
+    position: absolute;
+    width: 304px;
+    height: 104px;
+    left: 12px;
+    top: 124px;
+}
+
+.ClassComponentGroupTitle {
+    position: absolute;
+    left: 3.08%;
+    right: 75.67%;
+    top: 22.28%;
+    bottom: 75.21%;
+
+    width: 500px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+}

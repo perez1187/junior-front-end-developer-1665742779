@@ -1,0 +1,88 @@
+.BusinessContextTaskBoxId1 {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.BusinessContextTaskBoxId2 {
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(84, 84, 84, 0.2);
+    border-radius: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.BusinessContextTaskBoxId3 {
+
+
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.BusinessContextTaskTitleId1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    margin-left: 20px;
+
+    /* Colors/Blue */
+
+    color: #0165FF;
+
+}
+
+.BusinessContextTaskTitleId2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+
+    margin-left: 20px;
+
+    /* Colors/Black Headline */
+
+    color: #242325;
+}
+
+.BusinessContextTaskContent {
+    /* position: absolute; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+
+    margin-left: 20px;
+    margin-top: 14px ;
+    /* or 140% */
+
+    display: flex;
+    align-items: center;
+    
+    
+    /* Colors/Grey Bodycopy */
+    
+    color: #6B778C;
+    
+}
+
+.BusinessContextNewIcon {
+    border-radius: 4px;
+    /* position: absolute; */
+
+    margin-right: 10px;
+
+    width: 39px;
+    height: 20px;
+    left: 32px;
+    top: 23px;
+}
