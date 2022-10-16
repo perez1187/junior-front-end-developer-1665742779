@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 
 import { icons, userTasks, taskStyles, taskStatusStyles } from './MockedData'
 
@@ -28,7 +29,7 @@ export function findAlt(iconId){
     } 
 }
 
-
+// rendering tasks from your tasks box
 export function RenderingTaskObjects(){
 
     function findTaskStyles(iconId){
@@ -41,10 +42,15 @@ export function RenderingTaskObjects(){
         } 
     }
 
+    const [userTaskId, setUserTaskId] = useState('')
+
+    function testClick(userTaskId){
+        console.log('click', 'my click',userTaskId)
+    }
     const listItems = userTasks.map(
         (element) => {
             return (
-                <div className='TaskTest' key={element.id}>
+                <div className='TaskTest' key={element.id} onClick={() => testClick(element.id)}>
                     <img src={findIcon(element.status)} alt={findAlt(element.status)} className="TaskListIcon"></img>
                     <p className={findTaskStyles(element.status)}>{element.title}</p>            
                 </div>
@@ -108,6 +114,7 @@ export function RenderingBusinessContext(userTaskId){
     const current = new Date();
     const dateToday = `${current.getMonth()+1}/${current.getDate()}/${current.getFullYear()}`;
 
+    //rendering subtasks in business context
     const listItems = objectUserTask.businessContext.map(
         (element) => {
             return (

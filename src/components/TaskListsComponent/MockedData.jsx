@@ -26,19 +26,44 @@ export const userTasks = [
         "id":1,
         "status":1,
         "title": "Application Setup",
-        "businessContext": [],
+        "businessContext": [
+            {
+                "id":1,
+                "title": "1 New sprint, tasks and intro information.",
+                "content":" 1 Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+                "author":"Olga 1 Nelson",
+                "created_at":"10/10/2022",
+                "status":1,
+            },
+        ],
     },
     {
         "id":2,
         "status":1,
         "title": "Static Books List",
-        "businessContext": [],
+        "businessContext": [
+            {
+                "id":1,
+                "title": "2New sprint, tasks and intro information.",
+                "content":"2Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+                "author":"Olga2 Nelson",
+                "created_at":"10/10/2022",
+                "status":1,
+            },
+        ],
     },
     {
         "id":3,
         "status":1,
         "title": "Administration Panel",
-        "businessContext": [],
+        "businessContext": [            {
+            "id":1,
+            "title": "3New sprint, tasks and intro information.",
+            "content":"3Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+            "author":"3Olga Nelson",
+            "created_at":"10/10/2022",
+            "status":1,
+        },],
     },
     {
         "id":4,
@@ -75,7 +100,16 @@ export const userTasks = [
         "id":5,
         "status":3,
         "title": "Book Review Feature",
-        "businessContext": [],
+        "businessContext": [
+            {
+                "id":1,
+                "title": "New sprint, tasks and intro information.",
+                "content":"Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+                "author":"Olga Nelson",
+                "created_at":"10/10/2022",
+                "status":1,
+            },
+        ],
     },
 
 ]
