@@ -42,7 +42,7 @@ export function RenderingTaskObjects(){
         } 
     }
 
-    const [userTaskId, setUserTaskId] = useState('')
+    // const [userTaskId, setUserTaskId] = useState('')
 
     function testClick(userTaskId){
         console.log('click', 'my click',userTaskId)
