@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React, {useContext} from 'react'
 
-import { icons, userTasks, taskStyles, taskStatusStyles } from './MockedData'
+import { icons, userTasks, taskStyles, taskStatusStyles } from '../../assets/MockedData/MockedData'
 
 // css
 import './TaskListComponentName.css'
@@ -8,6 +8,10 @@ import './TaskListUtils.css'
 
 // icons
 import newIcon from '../../assets/icons/Rectangle 963.png'
+
+//context
+import TaskContext from '../../Contexts/TaskContext'
+
 
 export function findIcon(iconId){
     try{
@@ -32,6 +36,8 @@ export function findAlt(iconId){
 // rendering tasks from your tasks box
 export function RenderingTaskObjects(){
 
+    const {setUserTaskId} = useContext(TaskContext)
+
     function findTaskStyles(iconId){
         try{
             const object = taskStyles.find(obj => obj.id === iconId)
@@ -45,13 +51,16 @@ export function RenderingTaskObjects(){
     // const [userTaskId, setUserTaskId] = useState('')
     //add comment
 
-    function testClick(userTaskId){
-        console.log('click', 'my click',userTaskId)
+    
+
+    function ChangeUserTaskId(id){
+        // console.log('click', 'my click',id)
+        setUserTaskId(id)
     }
     const listItems = userTasks.map(
         (element) => {
             return (
-                <div className='TaskTest' key={element.id} onClick={() => testClick(element.id)}>
+                <div className='TaskTest' key={element.id} onClick={() => ChangeUserTaskId(element.id)}>
                     <img src={findIcon(element.status)} alt={findAlt(element.status)} className="TaskListIcon"></img>
                     <p className={findTaskStyles(element.status)}>{element.title}</p>            
                 </div>

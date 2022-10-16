@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { RenderingBusinessContext } from '../TaskListsComponent/TaskListUtils' 
 
 import messageAvatar from '../../assets/icons/Ellipse 3.png'
@@ -6,9 +6,13 @@ import messageAvatar from '../../assets/icons/Ellipse 3.png'
 // css
 import './ContentComponent.css'
 
+// context
+import TaskContext from '../../Contexts/TaskContext'
+
 function ContentComponent() {
 
   const messageText = `Hello!`
+  const {userTaskId} = useContext(TaskContext)
 
   return (
     <div className='ContentComponent'>
@@ -17,7 +21,7 @@ function ContentComponent() {
           {/* rendering list of subtasks/messages in Business Context box */}
 
             <div className='ContentComponentRectangle'> 
-                {RenderingBusinessContext(4)}
+                {RenderingBusinessContext(userTaskId)}
             </div>            
         </div>
           
