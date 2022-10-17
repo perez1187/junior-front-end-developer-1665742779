@@ -1,6 +1,9 @@
 import completedIcon from '../../assets/icons/Rectangle_1010.png'
 import activeIcon from '../../assets/icons/Rectangle 1011.png'
 import blockIcon from '../../assets/icons/Rectangle 1012.png'
+import KirtsenAvatar from '../icons/Ellipse 3.png'
+import cuteCat from '../icons/cat.jpg'
+
 
 export const icons = [
     {
@@ -29,8 +32,8 @@ export const userTasks = [
         "businessContext": [
             {
                 "id":1,
-                "title": "1 New sprint, tasks and intro information.",
-                "content":" 1 Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+                "title": "1 work work",
+                "content":" 1 one one one.",
                 "author":"Olga 1 Nelson",
                 "created_at":"10/10/2022",
                 "status":1,
@@ -46,9 +49,10 @@ export const userTasks = [
                 "id":1,
                 "title": "2New sprint, tasks and intro information.",
                 "content":"2Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
-                "author":"Olga2 Nelson",
-                "created_at":"10/10/2022",
-                "status":1,
+                "author":"Cute cat",
+                "created_at":"10/15/2022",
+                "status":2,
+                "avatar":cuteCat
             },
         ],
     },
@@ -58,11 +62,11 @@ export const userTasks = [
         "title": "Administration Panel",
         "businessContext": [            {
             "id":1,
-            "title": "3New sprint, tasks and intro information.",
-            "content":"3Hi Eric, congratulations on completing the previous assignment. This time you will have to focus on...",
+            "title": "3N test 3",
+            "content":"3lorem bleb ipsum",
             "author":"3Olga Nelson",
             "created_at":"10/10/2022",
-            "status":1,
+            "status":3,
         },],
     },
     {
@@ -84,7 +88,8 @@ export const userTasks = [
                 "content":"bla bla bla",
                 "author":"Kirsten Aniston ",
                 "created_at":"10/10/2022",
-                "status":2
+                "status":2,
+                "avatar":KirtsenAvatar
             },
             {
                 "id":3,
