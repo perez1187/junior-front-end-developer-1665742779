@@ -135,6 +135,10 @@
     top: 63px;
 
 }
+.avatarContentComponent {
+    width: 48px;
+    height: 48px;
+}
 
 .ContentComponentMessageBoxMessageMetadata {
     width: 289px;

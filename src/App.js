@@ -12,15 +12,20 @@ import FooterComponent from './components/FooterComponent/FooterComponent';
 // pages
 import TaskPage from './pages/TaskPage';
 
+//context
+import {TaskContextProvider} from './Contexts/TaskContext.jsx';
+
 function App() {
   return (
-    <BrowserRouter>
-      <NavbarComponent/>
-      <Routes>
-        <Route path='/' element={<TaskPage/>} /> 
-      </Routes>
-      <FooterComponent/>    
-    </BrowserRouter>
+    <TaskContextProvider>
+      <BrowserRouter>
+        <NavbarComponent/>
+        <Routes>
+          <Route path='/' element={<TaskPage/>} /> 
+        </Routes>
+        <FooterComponent/>    
+      </BrowserRouter>
+    </TaskContextProvider>
   );
 }
 
