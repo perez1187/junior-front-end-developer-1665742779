@@ -1,38 +1,37 @@
 .Menu {
-    position: absolute;
-    left: 2.29%;
-    right: 1.79%;
-    top: 0.89%;
-    bottom: 91%;
+
+    width: auto;
+    position: sticky;
+    top: 0;
+    height: 70px;
+
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 40px;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
 }
 
 .LogoNavbar {
-    position: absolute;
-    left: 0.02%;
-    right: 88.54%;
-    top: 28.77%;
-    bottom: 35.62%;
 
     width: 158px;
     height: 26px;
+    top: 0;
 }
 
-.LogoNavbarUnion {
-    position: absolute;
-    width: 157.94px;
-    height: 26px;
-    left: 0px;
-    top: 0px;
-    /* background: #242325; */
-
-}
 
 .UserImageNavbar {
     position: absolute;
     left: 96.22%;
     right: 0.45%;
-    top: 15.07%;
+    top: 0%;
     bottom: 21.92%;
+
+    align-items: center;
+    justify-content: center; 
 
     width: 46px;
     height: 46px;
@@ -42,14 +41,16 @@
 }
 
 .AvatarNavbar {
-    /* background-image: url(https://s3-alpha-sig.figma.com/img/11da/73c4/640f384abd00e598eaa0d29622a626c2?Expires=1666569600&Signature=fkpa8dsBKW1x2b1qoejaLe4uIoveGfy6jIl3-fDYV-E1qEAwMSaQo5BorLtAwjLH2-fIRoOQ2IKIi7ts9qStd2vwzIoz6qf~c5Sm1R7P9oWfADi9WkztSMAOLOvGcaPX-NRGqkIxNKaVWNf1pr0cf4x72ncS3KXojgF3jQkU~R2tCA0OXaj7cTeKDggwlYl-cOkeGtzi8I1fOOqtyjI0hEV5~6jrqlVOc6eyhouWfTQHuCEyi5pyOhVTaoAj9RdwdC3kqecJOtd4Ntl72svYLK2lst7slqBq2tz6gKUEWCOSB4uvXZDhStFIzUejgjhv2A4DfNh4piFXuyDf~iA-6Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA); */
-    background-repeat: no-repeat;
-    background-size: cover;
+
     position: absolute;
     width: 42px;
     height: 42px;
     left: 2px;
     top: 2px;
-    border-radius: 600px;
 
+    /* background-image: url(https://s3-alpha-sig.figma.com/img/11da/73c4/640f384abd00e598eaa0d29622a626c2?Expires=1666569600&Signature=fkpa8dsBKW1x2b1qoejaLe4uIoveGfy6jIl3-fDYV-E1qEAwMSaQo5BorLtAwjLH2-fIRoOQ2IKIi7ts9qStd2vwzIoz6qf~c5Sm1R7P9oWfADi9WkztSMAOLOvGcaPX-NRGqkIxNKaVWNf1pr0cf4x72ncS3KXojgF3jQkU~R2tCA0OXaj7cTeKDggwlYl-cOkeGtzi8I1fOOqtyjI0hEV5~6jrqlVOc6eyhouWfTQHuCEyi5pyOhVTaoAj9RdwdC3kqecJOtd4Ntl72svYLK2lst7slqBq2tz6gKUEWCOSB4uvXZDhStFIzUejgjhv2A4DfNh4piFXuyDf~iA-6Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA); */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    border-radius: 600px; 
 }

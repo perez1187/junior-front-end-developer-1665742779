@@ -4,13 +4,14 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px;
-    gap: 820px;
+    /* gap: 820px; */
 
-    position: absolute;
-    left: 2.22%;
-    right: 2.22%;
-    top: 97.78%;
-    bottom: 0.89%;
+    width: 95%;
+    position: fixed;
+    bottom: 0;
+    margin: 8px 32px;
+
+ 
 }
 
 .FooterComponentLeft {
@@ -114,16 +115,17 @@
 .FooterComponentRight {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 0px;
     gap: 8px;
 
     width: 210px;
     height: 12px;
 
-    flex: none;
+    /* flex: none;
     order: 1;
-    flex-grow: 0;
+    flex-grow: 0; */
+    margin-left: auto;
 }
 
 .FooterNerdsFamilyVersion{
