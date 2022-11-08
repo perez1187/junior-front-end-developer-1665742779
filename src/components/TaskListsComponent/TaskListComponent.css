@@ -12,7 +12,8 @@
     bottom: 4%;
 
     width: 320px;
-    height: 784px;
+    /* heigh 100% - footer navabrr */
+    height: calc(100% - 90px);
 }
 
 .TaskListHeader {
@@ -98,7 +99,8 @@
 
 
     width: 320px;
-    height: 718px;
+    /* heigh 100% - footer, navbar, header */
+    height: calc(100% - 175px);
 
     /* padding: 16px 24px; */
     padding-left: 16px;
