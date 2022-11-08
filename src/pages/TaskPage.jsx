@@ -10,7 +10,7 @@ function TaskPage() {
     <div>
         <TaskListComponent/>
         <BusinessContextTapBar/>
-        {/* <ContentComponent/> */}
+        <ContentComponent/>
     </div>
   )
 }

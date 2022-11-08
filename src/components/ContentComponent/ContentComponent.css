@@ -1,13 +1,13 @@
 .ContentComponent {
     position: absolute;
-    left: 25.56%;
-    right: 2.22%;
-    top: 16.22%;
+    left: 380px;
+    /* right: 2.22%; */
+    top: 156px;
     bottom: 4%;
-    padding: 24px 87px 0px 48px;
+    /* padding: 24px 87px 0px 48px; */
 
-    width: 1040px;
-    height: 718px;
+    width: calc(100% - 400px);
+    height: calc(100% - 240px);
 
     /* Colors/White Background */
 
@@ -21,7 +21,7 @@
 .ContentComponentInbox {
     position: absolute;
     width: 1010px;
-    height: 714px;
+    height: calc(100%);
     left: 4px;
     top: 0px;
 
@@ -30,7 +30,7 @@
 .ContentComponentRectangle {
     /* position: absolute; */
     width: 321px;
-    height: 718px;
+    height: calc(100% - 20px);
     left: 4px;
     top: 714px;
 
@@ -39,6 +39,11 @@
     background: #F4F5F7;
     border-radius: 10px 0px 0px 0px;
     /* transform: rotate(-90deg); */
+}
+
+.ContentComponentRectangleContent{
+    /* margin-top: 25px; */
+    padding-top: 1px;
 }
 
 .ContentComponentGroup {

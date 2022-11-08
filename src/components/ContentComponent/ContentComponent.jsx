@@ -110,10 +110,6 @@ function ContentComponent() {
   
     const messageCreatedAt = ShowMessageDate()  
 
-  
-
-
-
     return (
     <div className='ContentComponent'>
         <div className='ContentComponentInbox'>
@@ -121,7 +117,7 @@ function ContentComponent() {
           {/* rendering list of subtasks/messages in Business Context box */}
 
             <div className='ContentComponentRectangle'> 
-                {RenderingBusinessContext(userTaskId)}
+                <div className='ContentComponentRectangleContent'> {RenderingBusinessContext(userTaskId)} </div>
             </div>            
         </div>
           
