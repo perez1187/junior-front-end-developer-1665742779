@@ -11,6 +11,8 @@
     top: 90px;
     /* bottom: 4%; */
 
+    /* background-color: red; */
+
     width: 320px;
     /* heigh 100% - footer navabrr */
     height: calc(100% - 90px);
@@ -158,3 +160,10 @@
     display: flex;
     align-items: center;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    /* .TaskListComponent {background: red;} */
+  }
+  
